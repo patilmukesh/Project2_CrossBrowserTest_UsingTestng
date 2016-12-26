@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56195" started-at="2016-12-26T17:13:56Z" finished-at="2016-12-26T17:14:52Z">
+    <groups>
+    </groups>
+    <test name="IE Test" duration-ms="13917" started-at="2016-12-26T17:13:56Z" finished-at="2016-12-26T17:14:10Z">
+      <class name="org.tests.com.CrossBrwserTest">
+        <test-method status="PASS" signature="fblogintest(java.lang.String)[pri:0, instance:org.tests.com.CrossBrwserTest@28d25987]" name="fblogintest" duration-ms="11972" started-at="2016-12-26T22:43:56Z" finished-at="2016-12-26T22:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogintest -->
+        <test-method status="PASS" signature="aftermethtest()[pri:0, instance:org.tests.com.CrossBrwserTest@28d25987]" name="aftermethtest" is-config="true" duration-ms="1924" started-at="2016-12-26T22:44:08Z" finished-at="2016-12-26T22:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethtest -->
+      </class> <!-- org.tests.com.CrossBrwserTest -->
+    </test> <!-- IE Test -->
+    <test name="Firefox Test" duration-ms="27717" started-at="2016-12-26T17:14:10Z" finished-at="2016-12-26T17:14:38Z">
+      <class name="org.tests.com.CrossBrwserTest">
+        <test-method status="PASS" signature="fblogintest(java.lang.String)[pri:0, instance:org.tests.com.CrossBrwserTest@6a41eaa2]" name="fblogintest" duration-ms="27020" started-at="2016-12-26T22:44:10Z" finished-at="2016-12-26T22:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogintest -->
+        <test-method status="PASS" signature="aftermethtest()[pri:0, instance:org.tests.com.CrossBrwserTest@6a41eaa2]" name="aftermethtest" is-config="true" duration-ms="692" started-at="2016-12-26T22:44:37Z" finished-at="2016-12-26T22:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethtest -->
+      </class> <!-- org.tests.com.CrossBrwserTest -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="14492" started-at="2016-12-26T17:14:38Z" finished-at="2016-12-26T17:14:52Z">
+      <class name="org.tests.com.CrossBrwserTest">
+        <test-method status="PASS" signature="fblogintest(java.lang.String)[pri:0, instance:org.tests.com.CrossBrwserTest@39c0f4a]" name="fblogintest" duration-ms="13591" started-at="2016-12-26T22:44:38Z" finished-at="2016-12-26T22:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogintest -->
+        <test-method status="PASS" signature="aftermethtest()[pri:0, instance:org.tests.com.CrossBrwserTest@39c0f4a]" name="aftermethtest" is-config="true" duration-ms="898" started-at="2016-12-26T22:44:51Z" finished-at="2016-12-26T22:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethtest -->
+      </class> <!-- org.tests.com.CrossBrwserTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
